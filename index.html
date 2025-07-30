@@ -36,8 +36,6 @@
     <!--IMAGETARGETS-->
 		<imagetarget id='AISLAWALL CROWN (qr)' src='targets/AISLAWALL CROWN (qr).png'></imagetarget>
 		<imagetarget id='AISLAWALL YC (qr)' src='targets/AISLAWALL YC (qr).png'></imagetarget>
-		<imagetarget id='AISLAWALL-CROWN-VIRTUAL' src='targets/AISLAWALL-CROWN-VIRTUAL.jpg'></imagetarget>
-		<imagetarget id='TARGET_CROWN' src='targets/TARGET_CROWN.jpg'></imagetarget>
 
     <video id="webcam-video" muted autoplay playsinline style="width:1px;position:absolute"></video>
     <canvas id="video-canvas" style="width:100%; height:100%; object-fit:cover; position:absolute"></canvas>
@@ -76,7 +74,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="itracker.js" type="text/javascript"></script>
-    <script src="Build/Build Julio v2 2025.loader.js"></script>
+    <script src="Build/Build Julio 2025.loader.js"></script>
     <script>
             var initialize = async() =>{
                 var unityCanvas = document.querySelector("#unity-canvas");
@@ -108,9 +106,9 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Build Julio v2 2025.data",
-                    frameworkUrl: "Build/Build Julio v2 2025.framework.js",
-                    codeUrl: "Build/Build Julio v2 2025.wasm",
+                    dataUrl: "Build/Build Julio 2025.data",
+                    frameworkUrl: "Build/Build Julio 2025.framework.js",
+                    codeUrl: "Build/Build Julio 2025.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "Cintac",
                     productName: "Aislawall AR",
